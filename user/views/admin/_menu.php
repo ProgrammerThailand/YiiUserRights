@@ -14,7 +14,7 @@
     
 <?php
 $this->widget(
-    'bootstrap.widgets.TbButtonGroup',
+    'booster.widgets.TbButtonGroup',
     array(
         'type' => 'primary',
         'buttons' => array(
