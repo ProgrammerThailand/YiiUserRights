@@ -16,7 +16,7 @@
 $this->widget(
     'booster.widgets.TbButtonGroup',
     array(
-        'type' => 'primary',
+        'context' => 'primary',
         'buttons' => array(
             array('label' => UserModule::t('Create User'), 'url' => array('/user/admin/create')),
             array('label' => UserModule::t('Manage User'), 'url' => array('/user/admin'),'visible'=>UserModule::isAdmin()),
