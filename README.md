@@ -15,6 +15,7 @@ Configuration
 =============
 Open configuration file in protected/config/main.php and edit
 Import Section Add
+
   'import'=>array(
     
 
@@ -24,6 +25,7 @@ Import Section Add
 		'application.modules.rights.components.*',
 	),
 Modules Section Add
+
 	'modules'=>array(
 		// uncomment the following to enable the Gii tool
 
@@ -40,6 +42,7 @@ Modules Section Add
 	),
 	
 Components Section Add
+
 	'components'=>array(
 
 		'user'=>array(
