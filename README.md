@@ -11,6 +11,10 @@ Installing
 =============
 Copy user and rights folder to protected/modules
 
+Import Database 
+Import user_rights.sql file to your database
+
+
 Configuration
 =============
 Open configuration file in protected/config/main.php and edit
